@@ -1,0 +1,631 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+   overflow-x: hidden;
+}
+
+
+                                                            /* nav selection */
+
+nav{
+    background-color: rgba(189, 160, 216, 0.119);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;    
+}
+nav ul{
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+}
+nav ul li{
+    list-style-type: none;
+}
+nav ul li a{
+    text-decoration: none;
+}
+.bar-icons{
+    visibility: hidden;
+}
+
+
+
+/* ....................................... .........................................................................................*/
+
+
+
+                                                              /* first-section */
+
+.first-section{
+     height:100vh;
+     width: 100vw;
+     background: linear-gradient(to right,rgba(255, 0, 0, 0.267),rgba(0, 0, 0, 0.45)),
+     url(img/main.jpg.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     font-size: 30px;
+     display: flex;
+     align-items: center;
+     opacity: 0.8;
+}
+
+nav:hover + .first-section {
+    opacity: 0.9;
+}
+span{
+    color: blue;
+}
+.totalcon{  
+    width: 100%;
+}
+
+.main-contact{
+  width: 50%;
+  float: left;
+}
+
+.form{
+    width: 50%;
+    float: right;
+}
+
+.formone{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    font-size: 50px;  
+    gap: 30px;
+    align-items: center;
+    
+}
+.form input{
+    width: 30%;
+    padding: 20px;
+    display: flex;
+    border-radius: 25px;
+}
+.formone button{
+    padding: 10px;
+}
+.form button{
+    border-radius:30px;
+}
+.form button:hover{
+background-color: aquamarine;
+}
+
+/* ..................................................................................................................................... */
+
+                                    /* second-section */
+
+                                /* .............PART01............ */
+.box-partone{
+    width: 80%;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+}
+
+.common-box{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.boxone,.boxtwo,.boxthree{
+  background-color: gray;
+  font-size: 20px;
+  margin:50px;
+  padding: 10px;
+ 
+}
+.boxone ul,.boxtwo ul,.boxthree ul,.boxfour ul{
+    list-style-type: circle;
+    margin-left: 50px;
+    padding: 20px;
+}
+
+/* .........................PART01 END................................. */
+
+ p{
+    padding: 30px;
+    text-indent: 50px;
+    text-align: justify;
+ }
+ .box-main h1{
+   text-align: center;
+ }
+
+
+/* ...................................PART02............................... */
+
+ .box-parttwo{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+ }
+
+.common-boxone{
+    margin-top:30px;
+    width:80%;
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+}
+
+.boxfour,.boxfive,.boxsix{
+    background-color: grey;
+    padding: 30px;
+    margin: 30px;
+    font-size: 20px;
+}
+
+/* .......................................PART02............................ */
+
+
+
+/* ........................................HOVER.......................................... */
+
+.boxone:hover{
+    background-color: rgb(216, 209, 209);
+    box-shadow: 5px 5px 5px black;
+}
+
+.boxtwo:hover{
+    background-color: rgb(216, 209, 209);
+    box-shadow: 5px 5px 5px black;
+}
+
+.boxthree:hover{
+    background-color: rgb(216, 209, 209);
+    box-shadow: 5px 5px 5px black;
+}
+
+.boxfour:hover{
+    background-color: rgb(216, 209, 209);
+    box-shadow: 5px 5px 5px black;
+}
+.boxfive:hover{
+    background-color: rgb(216, 209, 209);
+    box-shadow: 5px 5px 5px black;
+}
+.boxsix:hover{
+    background-color: rgb(216, 209, 209);
+    box-shadow: 5px 5px 5px black;
+}
+
+/* .......................................HOVER END........................................................ */
+
+
+
+/* .....................................third selection....................................... */
+
+.third{
+    font-size: 30px;   
+}
+.hone {
+    text-align: center;
+}
+.third p{
+    text-align: center;
+    padding: 30px;  
+}
+.third span{
+    color: blue;
+}
+.leftright{
+    display: flex;
+    margin-left:30px ;
+    width: 100%;  
+}
+.left p {
+    text-align: justify;
+    color: blue;
+}
+.left{
+    width: 50%;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+/* ................................................................................... */
+
+/* ........................................fourselection............................... */
+
+
+.fourseletion{
+    background-color: rgb(25, 25, 165);
+    color: aliceblue;
+    font-size: 30px;
+}
+.fourseletion h1{
+    text-align: center;
+}
+.fourseletion p{
+    text-align: center;   
+}
+.fourseletion button{
+    margin-left: 50%;
+    padding: 10px;
+    background-color: rgb(78, 78, 197);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+/* .................................................................................. */
+
+
+/* .............five selection.................................................. */
+.fiveselection h1{
+    color: black;
+}
+.part1,.part2{
+    display: flex;
+    width: 100%;
+}
+.imgpart1,.imgpart2{
+    width: 30%;
+   margin-left:100px;
+   margin-top: 80px;
+}
+.parapart1,.parapart2{
+    width: 70%;
+    text-align: center;
+    margin-right: 80px;
+    font-size: 20px;
+    margin-top: 80px;
+    color: blue;
+    
+}
+/* ..................................................................................... */
+
+/* .........................six selection....................................... */
+
+
+.sixselection{
+    background-color: rgb(8, 8, 67);
+}
+.sixselection h1{
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+    color: aliceblue;
+}
+.sixselection p{
+    font-size: 30px;
+    color: aliceblue;
+    padding: 50px;
+    text-align: center;
+}
+/* ...................................................................................... */
+
+/* .............................seven selection.................................... */
+
+.sevenselection h1{
+    text-align: center;
+    color: blue;
+    font-size: 40px;
+    margin-top: 70px;   
+}
+.seven{
+    display: flex;
+    width: 100%;
+    margin-top: 80px;
+}
+.sevenpart1{
+    width:30%;
+    padding: 50px;
+   margin-left: 100px;
+   margin-top: 80px;
+}
+.sevenpart2{
+    width:70%;
+    font-size:25px;
+    color: blue;
+    padding: 40px;
+}
+
+/* .................................................................. */
+
+/* .................................eight selection............................... */
+
+.eightselection h1{
+
+    font-size: 40px;
+    padding: 40px;
+    color: blue;
+    text-align: center;
+}
+.eightselection h2{
+   margin-left: 30px;
+
+}
+.eight{
+    padding: 50px;
+}
+
+.eightselection p{
+   font-size: 20px;
+   border-bottom: 2px solid black;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+/* ........................................................................................ */
+
+/* ..............................nine selection.................................... */
+.nineselection{
+    background-color: gray;
+   
+}
+.nineh1p h1{
+    color: blue;
+    font-size: 50px;
+    text-align: center;
+}
+.nineh1p p{
+    font-size: 30px;
+    text-align: center;
+    padding: 30px;
+}
+
+.nine{
+    width:100%;
+    display: flex;
+}
+
+.ninepart1 {
+ width: 50%;
+}
+.address{
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: repeat(auto-fit(350px,1fr));
+    width: 75%;
+    padding:50px;
+    margin-left: 15%;
+}
+.address h1{
+    display: flex;
+    align-items: center;
+}
+
+.ninepart2{
+   display: flex;
+   gap: 50px;
+}
+.ninepartone{
+    background-color: white;
+     padding: 20px 100px;
+}
+ 
+.nineparttwo{
+    padding: 20px 100px;
+    background-color: white;
+    margin-right: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+.message{
+     display: flex;
+    
+}
+.white{
+    width: 50%;   
+}
+.whitebox{
+    width: 50%;
+}
+
+.nameemail{
+    display: flex;
+}
+
+.box{
+    background-color: aliceblue;
+    margin-top: 60px;
+    margin-left: 80px;
+    width:80%;
+    height: 500px;   
+}
+.box1{
+    background-color: aliceblue;
+    margin-top: 60px;
+    margin-left: 80px;
+    width:80%;
+    height: 500px; 
+    display: grid; 
+    grid-template-columns: repeat(auto-fit(400px,1fr)); 
+}
+.box1 input{
+    background-color:ghostwhite;
+   border-radius: 5px;
+   margin: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: left;
+    padding: 5px;
+}
+.box1 textarea{
+    background-color:ghostwhite;
+   border-radius: 5px;
+   margin: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: left;
+    padding: 5px;
+}
+
+.box1 button{
+   background-color: blue;
+   margin: 30px;
+   color: aliceblue;
+   width: 30%;
+   border-radius: 10px;
+  margin-left: 40%;
+}
+.nineh1p2 p{
+    text-align: center;
+    font-size: 30px;
+    margin-left: 30px;
+}
+.nineh1p2 h1{
+    color: blue;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 50px;
+  font-weight: bold;
+}
+.submit{
+    background-color: aliceblue;
+    width: 50%;
+    height: 50px;
+    border-radius: 5px; 
+    margin: 20px; 
+    margin-left: 300px;
+}
+.submit button{
+  border-radius: 10px;
+  background-color: blue;
+  padding: 10px;
+  margin: 5px;
+  margin-left:680px;
+}
+
+/* ...................................................................................................................... */
+
+/* ..........................................ten selection.............................................. */
+
+.tenselection{
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+}
+
+.partoneten{
+    width: 50%;
+    display: flex;   
+}
+
+.partoneten ul{
+    padding: 90px;
+}
+.partoneten ul li{
+    padding: 10px;
+    margin-top: 30px;
+}
+
+/* .................. */
+.parttwoten{
+    width: 50%;
+    display: flex;
+    margin-top: 30px;
+}
+.services ul{
+    padding: 70px;
+}
+.services ul li{
+    padding: 10px;
+    margin-top: 20px;
+}
+.social{
+    padding: 70px;
+   
+}
+ h1{
+    text-align: center;
+    color: blue;
+}
+.social p{
+    font-size: 20px;
+    margin-top: 30px;
+}
+.icons1{
+ display: flex;
+ gap: 30px;
+ margin-top: 70px;
+}
+/* ................. */
+
+.last{
+    background-color: rgb(9, 9, 71);
+    color: azure;
+    font-size: 30px;  
+}
+.last p{
+    text-align: center;
+}
+
+.lastlast{
+    background-color: white;
+    height: 100px;
+}
+
+/* ......................................................................................... */
+
+
+
+
+
+
+@media screen and (max-width:700px){
+    body{
+        background-color: bisque;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .bar-icons{
+        visibility:visible;
+    }
+   nav ul{
+    flex-direction: column;
+   }
+   .navicons{
+   display: none;
+    
+   }
+    .header{
+        display: flex;
+        gap: 50px;
+        align-items: center;
+    }
+    .first-section{
+text-align: center;
+    }
+    .main-contact{
+        width: 100%;
+      }
+    .form{
+        width: 100%;
+        
+    }
+    .boxone{
+        width: 100%;
+    }
+    .boxtwo{
+        width: 100%;
+    }
+    .boxthree{
+        width: 100%;
+    }
+
+    /* ........... */
+    .left{
+        width: 100%;
+    }
+    ..right{
+        width: 100%;
+    }
+}
+
